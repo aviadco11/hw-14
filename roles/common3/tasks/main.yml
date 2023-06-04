@@ -1,0 +1,5 @@
+---
+- name: template a file to another place
+  template:
+    src: hello1.j2
+    dest: /tmp/test3 
